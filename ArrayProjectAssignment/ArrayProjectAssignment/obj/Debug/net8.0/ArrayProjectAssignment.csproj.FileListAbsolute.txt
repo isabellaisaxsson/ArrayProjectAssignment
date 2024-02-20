@@ -1,0 +1,15 @@
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\bin\Debug\net8.0\ArrayProjectAssignment.exe
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\bin\Debug\net8.0\ArrayProjectAssignment.deps.json
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\bin\Debug\net8.0\ArrayProjectAssignment.runtimeconfig.json
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\bin\Debug\net8.0\ArrayProjectAssignment.dll
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\bin\Debug\net8.0\ArrayProjectAssignment.pdb
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.AssemblyInfoInputs.cache
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.AssemblyInfo.cs
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.csproj.CoreCompileInputs.cache
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.sourcelink.json
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.dll
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\refint\ArrayProjectAssignment.dll
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.pdb
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.genruntimeconfig.cache
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ref\ArrayProjectAssignment.dll
