@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArrayProjectAssignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+724a19f84e202cea743651d4789f9d4e188ec2dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd313847d46dc04ca59b9dbb8c97f2d7d7492885")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArrayProjectAssignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArrayProjectAssignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

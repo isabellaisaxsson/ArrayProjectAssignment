@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G/5jfCp46FlTmW4SzSPBK8dT3nLImaBNy+9zHnK7xW8VZpWGj9XNwxy/OUdLdQGwLo0HRmeiT1g2ibYWBpAI5w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BingBong\\Documents\\TUC yrkeshögskola\\Fördjupad programmering\\ArrayProjectAssignment\\ArrayProjectAssignment\\Statistics\\Statistics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BingBong\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
