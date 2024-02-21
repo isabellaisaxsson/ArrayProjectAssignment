@@ -1,41 +1,42 @@
-﻿using System;
-using System.Collections.Generic;
+﻿//using System;
+//using System.Collections.Generic;
 
-class Program
-{
-    public static void Main()
-    {
-        string[] inputArray = { "renault", "volkswagen", "audi", "volvo", "dacia", "alfa Romeo" };
-        List<string> filteredList = FilterString(inputArray);
+//class Program
+//{
+//    public static void Main()
+//    {
+//        string[] inputArray = { "renault", "volkswagen", "audi", "volvo", "dacia", "alfa Romeo" };
 
-        Console.WriteLine("Element som börjar på A:");
-        foreach (string item in filteredList)
-        {
-            Console.WriteLine(item);
-        }
+//        List<string> filteredList = FilterString(inputArray);
 
-        string directoryPath = Path.Combine(Environment.CurrentDirectory, "A_Directory");
-        Directory.CreateDirectory(directoryPath);
+//        Console.WriteLine("Element som börjar på A:");
+//        foreach (string item in filteredList)
+//        {
+//            Console.WriteLine(item);
+//        }
 
-        string filePath = Path.Combine(directoryPath, "a_list.txt");
-        File.WriteAllLines(filePath, filteredList);
+//        string directoryPath = Path.Combine(Environment.CurrentDirectory, "A_Directory");
+//        Directory.CreateDirectory(directoryPath);
 
-        Console.WriteLine($"Filen har sparats i {filePath}");
-    }
+//        string filePath = Path.Combine(directoryPath, "a_list.txt");
+//        File.WriteAllLines(filePath, filteredList);
 
-    static List<string> FilterString(string[] inputArray)
-    {
-        List<string> resultList = new List<string>();
+//        Console.WriteLine($"Filen har sparats i {filePath}");
+//    }
 
-        foreach (string item in inputArray)
-        {
-            if (item.StartsWith("a", StringComparison.OrdinalIgnoreCase)) // Ignorera skillnader mellan små och stora bokstäver
-            {
-                resultList.Add(item);
-            }
-        }
+//    static List<string> FilterString(string[] inputArray)
+//    {
+//        List<string> resultList = new List<string>();
 
-        return resultList;
-    }
+//        foreach (string item in inputArray)
+//        {
+//            if (item.StartsWith("a", StringComparison.OrdinalIgnoreCase)) // Ignorera skillnader mellan små och stora bokstäver
+//            {
+//                resultList.Add(item);
+//            }
+//        }
 
-    }
+//        return resultList;
+//    }
+
+//    }
