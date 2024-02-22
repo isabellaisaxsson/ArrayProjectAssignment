@@ -60,3 +60,4 @@ C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayPro
 C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\Statistics\obj\Debug\net8.0\Statistics.pdb
 C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\Statistics\obj\Debug\net8.0\Statistics.genruntimeconfig.cache
 C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\Statistics\obj\Debug\net8.0\ref\Statistics.dll
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\Statistics\bin\Debug\net8.0\nunit.framework.dll

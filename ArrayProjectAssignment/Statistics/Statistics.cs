@@ -2,10 +2,11 @@
 using Newtonsoft.Json;
 using System.IO;
 using System.Collections.Generic;
+using NUnit.Framework;
 
 namespace Statistics
 {
-  
+    [TestFixture]
     public static class Statistics
     {
         public static int[] source = JsonConvert.DeserializeObject<int[]>(File.ReadAllText("data.json"));
@@ -36,6 +37,7 @@ namespace Statistics
             return output;
         }
 
+        [Test]
         public static int Maximum()
         {
             Array.Sort(Statistics.source);
@@ -44,6 +46,7 @@ namespace Statistics
             return result;
         }
 
+        [Test]
         public static int Minimum()
         {
             Array.Sort(Statistics.source);
@@ -51,6 +54,7 @@ namespace Statistics
             return result;
         }
 
+        [Test]
         public static double Mean()
         {
             Statistics.source = source;
@@ -63,6 +67,7 @@ namespace Statistics
             return total / source.LongLength;
         }
 
+        [Test]
         public static double Median()
         {
             Array.Sort(source);
@@ -72,11 +77,32 @@ namespace Statistics
             return dbl;
         }
 
-        //public static int[] Mode()
-        //{
-           
-        //}
+        [Test]
+        public static int[] Mode()
+        {
+            Dictionary<int, int> occurences = new Dictionary<int, int>(); //Använder Dictionary för statistiska värden
 
+            foreach(int value in Statistics.source) //Går igenom varje värde i arrayen source
+            {
+                if (occurences.ContainsKey(value)) //Om value eller värdet har räknats tidigare
+                    occurences[value]++; //Ökar värdets förekomster med ett
+                else
+                    occurences[value] = 1; //Sätter värdet till ett då det hittades första gången
+            }
+
+            int maxOccurences = occurences.Values.Max(); //maxOccurences sätts till värdet med maximalt antal förekomster
+
+            List<int> modes = new List<int>();
+            foreach(var pair in occurences) //Loopar igenom varje värde i Dictionaryn occurences
+            {
+                if(pair.Value == maxOccurences) //Om antalet förekomster av värdet är lika med maxOccurences
+                    modes.Add(pair.Key); //Lägg till värdet i listan modes
+            }
+
+            return modes.ToArray(); //Returnerar en array med de värden som finns i listan modes
+        }
+
+        [Test]
         public static int Range()
         {
             Array.Sort(Statistics.source);
@@ -91,6 +117,7 @@ namespace Statistics
             return range;
         }
 
+        [Test]
         public static double StandardDeviation() 
         {
 
