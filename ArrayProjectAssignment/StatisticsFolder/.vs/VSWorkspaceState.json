@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Statistics",
+    "\\StatisticsTester",
+    "\\Statistics\\bin",
+    "\\Statistics\\bin\\Debug",
+    "\\Statistics\\bin\\Debug\\net6.0",
+    "\\Statistics\\obj\\Debug\\net6.0",
+    "\\Statistics\\obj\\Debug\\net8.0"
+  ],
+  "SelectedNode": "\\Statistics\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
