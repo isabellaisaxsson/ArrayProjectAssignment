@@ -14,3 +14,5 @@ C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayPro
 C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.genruntimeconfig.cache
 C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ref\ArrayProjectAssignment.dll
 C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.csproj.AssemblyReference.cache
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\BingBong\Documents\TUC yrkeshögskola\Fördjupad programmering\ArrayProjectAssignment\ArrayProjectAssignment\ArrayProjectAssignment\obj\Debug\net8.0\ArrayProjectAssignment.csproj.CopyComplete
