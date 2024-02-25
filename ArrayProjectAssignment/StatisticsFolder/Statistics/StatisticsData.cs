@@ -5,8 +5,7 @@ using System.Collections.Generic;
 
 namespace Statistics
 {
-// 1. Förstå koden
-// 2. vscommunity kommenterar ibland ondödig "kod" med "...", kolla kommentaren
+
     public static class StatisticsData
     {
         public static int[] source = JsonConvert.DeserializeObject<int[]>(File.ReadAllText("data.json"));
@@ -142,7 +141,14 @@ namespace Statistics
 // Language Integrated Query vilket används för att utföra olika beräkningar så som att hitta medianen, medelvärdet eller liknande inom programmet.
 // exempel på LINQ metoder som används är Sum(), OrderBy(), GroupBy() osv. Dictionary används också i programmet, det är en datastruktur som tillåter
 // snabb åtkomst till värden genom nycklar.
-// Om jag skulle gjort programmet hade jag använt mig av ungefärligt samma saker som jag nämnde ovan, jag hade även mig utav */
+// Om jag skulle gjort programmet hade jag använt mig av ungefärligt samma saker som jag nämnde ovan, om jag skulle lägga till några fler metoder
+// och tekniker för att förbättra koden hade jag implementerat en SQL databas istället för att enbart använda filhantering för att spara datan. Det här
+// hade underlättat om ifall man skulle utöka programmet och stastistik datan i framtiden.
+// Istället för att skriva egen logik för de statistiska beräkningarna hade jag även använt mig utav ett färdigt statistik bibliotek som tillhandahåller
+// inbyggda metoder som underlättar för den som skriver koden och den som sedan ska läsa den osv. Ett exempel på ett sådant bibliotek är Math.NetNumerics
+// Jag hade även använt mig utav konstruktionen try-catch eftersom att det isåfall skulle bli simplare om ifall t.ex. data filen med datan inte hittas
+// kommer den att fånga upp det och inte endast krascha. Detta kommer att göra det enklare för den som skriver koden, ska ändra koden och den som ska kolla
+// igenom datan som kommer upp i konsollen då det kommer att finnas en typ av förklaring till varför programmet inte utförs*/
 
 //  Frågra 5:
 //  Man kan göra koden simplare genom att:
